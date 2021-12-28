@@ -6,17 +6,13 @@ import java.io.IOException;
 import java.util.Scanner;
 
 class InvalidYearException extends Exception {
-    public InvalidYearException(String s) {
-        super(s);
-    }
+    public InvalidYearException(String s) { super(s); }
 }
-
 class InvalidRnoException extends Exception {
     public InvalidRnoException(String s) {
         super(s);
     }
 }
-
 class InvalidCourseException extends Exception {
     public InvalidCourseException(String s) {
         super(s);
